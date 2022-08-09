@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Любимые животные </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+   <style>
+     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+        body {
+            background-color: rgb(199, 135, 62);
+        }
+        #new {
+          font-family: 'Playfair Display', serif;
+        }
+        #img {
+
+          border-radius: 2em;
+        }
+        p {
+          font-size: 1.2em;
+        }
+        .aye {
+          font-size: 1.5em;
+        }
+        .card {
+            border-radius: 2em;
+            text-align: center;
+            background-color: rgb(199, 135, 62);
+            
+          }
+            .card:hover {
+            background-color: rgba(0, 0, 0, 0.2);
+          }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand p-0" href="/">
+            <img src="D&C (1).png" alt="logo" width="55" height="50" >
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cat.html">Котики</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="dog.html">Собачки</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="homa.html">Хомяки</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+     
+          <div class="container my-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+              
+              <div class="col">
+                <div class="card">
+                  <img src="shpic.jpg.jpg" id="img" class="card-img-top" alt="img">
+                  <div class="card-body">
+                    <h5 class="card-title">Померанский шпиц</h5>
+                    <p class="card-text">Порода собак, относящаяся к категории «Шпицы и породы примитивного типа» по классификации МКФ. У померанского шпица мягкая набивная пушистая шерсть, короткая небольшая мордочка и пушистый лоб.</p>
+                    <a href="shpic.html" class="btn btn-primary">Узнать больше</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="huski.jpg.jpg" id="img" class="card-img-top" alt="img">  
+                  <div class="card-body">
+                    <h5 class="card-title">Хаски</h5>
+                    <p class="card-text">Эта аборигенная ездовая собака Востока является одной из древнейших пород собак. В настоящее время выведенная порода «сибирский хаски» используется не только как ездовая, но и как собака-компаньон и собака поводырь.</p>
+                    <a href="huski.html" class="btn btn-primary">Узнать больше</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="bigl.jpg.jpg" id="img" class="card-img-top" alt="img">
+                  <div class="card-body">
+                    <h5 class="card-title">Бигль</h5>
+                    <p class="card-text">Охотничья порода собак, выведенная в Великобритании. Среднего размера, внешне сходна с фоксхаундом, но мельче, с более короткими ногами и более длинными и мягкими ушами. И вообще очень хочу такую.</p>
+                    <a href="bigl.html" class="btn btn-primary">Узнать больше</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://catherineasquithgallery.com/uploads/posts/2021-02/1612283949_78-p-doberman-na-fioletovom-fone-105.jpg" id="img" class="card-img-top" alt="img">  
+                  <div class="card-body">
+                    <h5 class="card-title">Доберман</h5>
+                    <p class="card-text">Порода короткошёрстных служебных собак, выведенная в городе Апольда в конце XIX века Карлом Фридрихом Луисом Доберманом, названа в честь своего создателя. А еще они очень крутые.</p>
+                    <a href="dobr.html" class="btn btn-primary">Узнать больше</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://avatars.mds.yandex.net/get-zen_doc/1899117/pub_5e26008f1ee34f00ad56cf87_5e2600ccaad43600ad447813/scale_1200" id="img" class="card-img-top" alt="img">
+                  <div class="card-body">
+                    <h5 class="card-title">Лабрадор Ретривер</h5>
+                    <p class="card-text">Порода собак. Первоначально была выведена в качестве охотничьей подружейной собаки. Лабрадоры используются на охоте, в качестве собак-поводырей, собак-спасателей, но главным образом в роли компаньонов.</p>
+                    <a href="laba.html" class="btn btn-primary">Узнать больше</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://avatars.mds.yandex.net/get-pdb/2863475/5bc6312c-75e4-4ded-a71c-88bda4892ea1/s1200?webp=false" id="img" class="card-img-top" alt="img">  
+                  <div class="card-body">
+                    <h5 class="card-title">Мопс</h5>
+                    <p class="card-text">Порода декоративных собак. Мопсы были привезены из Китая в Европу в XVI веке и были популярны в Западной Европе и Нидерландах. А еще у них очень классные мордочки, я сам лично обожаю мопсиков.</p>
+                    <a href="mops.html" class="btn btn-primary">Узнать больше</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://baback.club/uploads/posts/2022-02/thumbs/1643863033_1-baback-club-p-miniatyurnii-pudel-sobaki-krasivo-foto-1.jpg" id="img" class="card-img-top" alt="img">
+                  <div class="card-body">
+                    <h5 class="card-title">Пудель</h5>
+                    <p class="card-text">Порода, которая на данный момент относится преимущественно к группе декоративных собак. Изначально пудель являлся рабочей собакой. Пудель занимает второе место в рейтинге самых умных пород.</p>
+                    <a href="pudel.html" class="btn btn-primary">Узнать больше</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://avatars.mds.yandex.net/get-zen_doc/163240/pub_5d791901aad4363eae52bbe1_5d792ebe1e8e3f00ad9bdde2/scale_1200" id="img" class="card-img-top" alt="img">  
+                  <div class="card-body">
+                    <h5 class="card-title">Такса</h5>
+                    <p class="card-text">Порода немецких норных охотничьих собак . Существует несколько разновидностей такс, отличающихся размерами и весом - стандартные, миниатюрные и кроличьи. А еще они как сосисочки, крайне милые.</p>
+                    <a href="taxa.html" class="btn btn-primary">Узнать больше</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="https://funart.pro/uploads/posts/2022-05/thumbs/1653866596_2-funart-pro-p-klassicheskaya-nemetskaya-ovcharka-krasivo-2.jpg" id="img" class="card-img-top" alt="img">
+                  <div class="card-body">
+                    <h5 class="card-title">Немецкая овчарка</h5>
+                    <p class="card-text">Порода собак, изначально использовалась в качестве пастушьей и служебно-розыскной собаки. Немецкая овчарка была получена в результате селекции и скрещивания некоторых разновидностей гуртовых собак.</p>
+                    <a href="ovch.html" class="btn btn-primary">Узнать больше</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>  
+      
+   
+</body>
+</html>
